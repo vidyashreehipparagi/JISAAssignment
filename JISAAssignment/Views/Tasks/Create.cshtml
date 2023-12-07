@@ -1,0 +1,34 @@
+﻿@model JISAAssignment.Models.Tasks
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="TaskId" class="control-label"></label>
+        <input asp-for="TaskId" class="form-control" />
+        <span asp-validation-for="TaskId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TaskName" class="control-label"></label>
+        <textarea asp-for="TaskName" class="form-control"></textarea>
+        <span asp-validation-for="TaskName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JISAAssignment", "JISAAssignment\JISAAssignment.csproj", "{B21BC4A6-FE7D-4DCD-B154-522AEB46B15A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B21BC4A6-FE7D-4DCD-B154-522AEB46B15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21BC4A6-FE7D-4DCD-B154-522AEB46B15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21BC4A6-FE7D-4DCD-B154-522AEB46B15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21BC4A6-FE7D-4DCD-B154-522AEB46B15A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EC43D16-1D77-4880-9B39-D397C2EEAA29}
+	EndGlobalSection
+EndGlobal
